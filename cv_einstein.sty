@@ -76,9 +76,9 @@
 % -- Black band with contact details
 % The -1px offset is required for the header to precisely reach the very top of the page.
 \node[rectangle, below=-1px of header.south, anchor=north, minimum width=\paperwidth, minimum height=\contactheight, fill=darkcolor](contact){\color{white} \small
-    \href{#1}{#1}
-    \hspace{\contactspacing} #2
-    \hspace{\contactspacing} {\includegraphics[height=0.24cm]{#3} #4}
+    \href{mailto:#1}{\faEnvelope  #1}
+    \hspace{\contactspacing} \href{tel:#2}{\faPhoneSquare  #2}
+    \hspace{\contactspacing} \href{https://www.google.com/maps/place/@54.3521284,18.5981498,17}{\includegraphics[height=0.24cm]{#3} #4}
     \hspace{\contactspacing} \href{https://www.linkedin.com/in/#5}{\faLinkedinSquare /#5}
     \hspace{\contactspacing} \href{https://github.com/#6}{\faGithub/#6}
 };% \node
