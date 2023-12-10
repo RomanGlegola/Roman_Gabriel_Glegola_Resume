@@ -95,7 +95,7 @@
     \backgroundcolor{c[1](0.5\columnsep,4pt)(4pt,4pt)}[rgb]{1,1,1}
     \backgroundcolor{C[0](10000pt,10000pt)(0.5\columnsep,10000pt)}{lightcolor}
     \backgroundcolor{C[1](0.5\columnsep,10000pt)(10000pt,10000pt)}[rgb]{1,1,1}
-}
+}% \newcommand
 %-------------------------------------------------------
 \definecolor{materialpurple}{HTML}{9C27B0}
 \definecolor{materialindigo}{HTML}{3F51B5}
